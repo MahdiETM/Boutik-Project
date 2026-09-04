@@ -1,0 +1,83 @@
+/* Add Font */
+@font-face {
+    font-family:"Shabnam-Bold";
+    src: url("./Fonts/Shabnam-Bold.ttf");
+}
+*{
+    font-family:"Shabnam-Bold";
+
+}
+/* reset-all-styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  button,
+  input,
+  textarea,
+  select {
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+
+  /* header-styles */
+  .header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .header-logo{
+    width: 100px;
+    height: auto;
+  }
+
+  header .nav-list{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header #shopping-icon, #search-icon{
+    color: #000000b9;
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  header .nav-links:hover{
+    color: rgb(255, 204, 0);
+    transition: color 0.3s ease;
+  }
+  
+  header #shopping-icon:hover{
+    color: rgb(255, 204, 0);
+    transition: color 0.3s ease;
+  }
+
+  header #search-icon:hover{
+    color: rgb(255, 204, 0);
+    transition: color 0.3s ease;
+  }
+
+  
