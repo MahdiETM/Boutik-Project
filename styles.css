@@ -80,4 +80,84 @@
     transition: color 0.3s ease;
   }
 
-  
+/* Top-banner */
+  .banner-container {
+    position: relative;
+    width: 95%;
+    height: 450px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.banner-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+}
+.TopBanner-btn {
+    position: absolute;
+    top: 75%;
+    right: 75%;
+}
+
+.TopBanner-btn {
+    margin-top: 20px;
+    padding: 10px 23px;
+    border: none;
+    border-radius: 8px;
+    background-color: #111;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.TopBanner-btn:hover {
+    padding: 12px 25px;
+    background-color: #d9a900;
+}
+
+/* Dastebandi-Section */
+
+.Dastebandi-Section{
+    margin: 10px 36px;
+}
+
+.Dastebandi-Section h4{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.Dastebandi-items-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.Dastebandi-items-container .Dastebandi-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgb(239, 239, 239);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+}
+
+.Dastebandi-items-container .Dastebandi-item img{
+    width: 150px;
+}
+
+.Dastebandi-items-container .Dastebandi-item a{
+    color: #564300;
+    font-size: 15px;
+}
+
+.Dastebandi-items-container .Dastebandi-item a:hover{
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
