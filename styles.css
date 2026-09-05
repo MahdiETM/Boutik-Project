@@ -219,6 +219,11 @@ gap: 10px;
  gap: 20px;
 }
 
+.txt-btn-mahsolat-item .add-cart:hover{
+  padding: 10px 30px;
+  border: 2px solid rgb(206, 205, 205);
+}
+
 .txt-btn-mahsolat-item .add-cart p{
   font-size: 16px;
 }
