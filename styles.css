@@ -223,3 +223,48 @@ gap: 10px;
   font-size: 16px;
 }
 
+/* Features-Section */
+
+.Features-Section{
+  display: flex;
+  margin: 50px;
+  padding: 17px 30px;
+  background-color: rgb(248, 248, 248) ;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.Feature{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
+  border-left: 2px solid rgb(226, 226, 226);
+  gap: 5px;
+}
+
+.last-Feature{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
+  gap: 5px;
+}
+
+.Feature i , .last-Feature i {
+  font-size: 40px;
+}
+
+.Feature .Feature-txt , .last-Feature .Feature-txt{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.Feature .Feature-txt h5 , .last-Feature .Feature-txt h5{
+font-size: 17px;
+}
+
+.Feature p , .last-Feature p{
+font-size: 15px;
+}
