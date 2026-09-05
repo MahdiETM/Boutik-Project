@@ -308,3 +308,83 @@ font-size: 15px;
   padding: 10px 25px;
   background-color: #585858;
 }
+
+/* Takhfif-Section */
+
+.Takhfif-Section{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+  padding: 17px 30px;
+  background-color: rgb(248, 248, 248) ;
+  border-radius: 10px;
+}
+
+.Takhfif-Section form input{
+  border: none;
+  outline: none;
+  width: 400px;
+  padding: 8px;
+  border-radius: 6px;
+  padding-right: 30px;
+  transition: all 0.3s ease;
+}
+
+.Takhfif-Section form input:hover{
+  border: 2px solid #d9a900 ;
+}
+
+.Takhfif-Section form input:focus{
+  border:none;
+  outline: none;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.Takhfif-Section form input::placeholder{
+  color: #c4c3c3;
+  font-size: 17px;
+}
+
+.Takhfif-Section form button{
+  background-color: black;
+  color: white;
+  border: none;
+  width: 90px;
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+
+.Takhfif-Section form button:hover{
+  padding: 8px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  border: 2px solid #d9a900 ;
+  color: #d9a900;
+}
+
+.Takhfif-Section .Takhfif-Section-txt-icon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.Takhfif-Section .Takhfif-Section-txt-icon i{
+  font-size: 50px;
+}
+
+.Takhfif-Section .Takhfif-Section-txt{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  direction: ltr;
+}
+
+.Takhfif-Section .Takhfif-Section-txt h5{
+  font-size: 18px;
+}
+
+.Takhfif-Section .Takhfif-Section-txt p{
+  font-size: 14px;
+}
