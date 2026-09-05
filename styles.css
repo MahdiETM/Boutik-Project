@@ -388,3 +388,58 @@ font-size: 15px;
 .Takhfif-Section .Takhfif-Section-txt p{
   font-size: 14px;
 }
+
+/* Footer */
+
+.footer{
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px 10px 20px;
+}
+
+.footer p{
+  font-size: 15px;
+}
+.footer h5{
+  font-size: 20px;
+}
+
+.footer .footer-aboutUs{
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .footer-aboutUs .aboutUs-icons{
+  display: flex;
+  justify-content: space-between;
+  font-size: 40px;
+}
+
+.footer .footer-CustomerService{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .footer-CustomerService .CustomerService-txt{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer .footer-fastAccess{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer .footer-ContactInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+
