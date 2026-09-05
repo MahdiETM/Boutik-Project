@@ -273,11 +273,11 @@ font-size: 15px;
 
 .Bottom-banner-container {
   position: relative;
-  width: 95%;
+  width: fit-content;
   height: 200px;
-  margin: auto;
+  margin: 50px;
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 12px;
 }
 .Bottom-banner-container img {
   width: 100%;
