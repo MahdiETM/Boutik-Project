@@ -150,11 +150,27 @@
 
 .Dastebandi-items-container .Dastebandi-item img{
     width: 150px;
+    border-radius: 20px;
+    background-color: white;
 }
 
 .Dastebandi-items-container .Dastebandi-item a{
     color: #564300;
     font-size: 15px;
+    
+}
+
+.Dastebandi-items-container .Dastebandi-item:hover{
+        transition: all ease 0.3s;
+        transform: translateY(-10px);
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.7);
+        background: #000;
+        color: white;
+        border-color: black;
+}
+
+.Dastebandi-items-container .Dastebandi-item a:hover{
+  color: white;
 }
 
 .Dastebandi-items-container .Dastebandi-item a:hover{
